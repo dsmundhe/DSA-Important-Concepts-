@@ -1,42 +1,44 @@
 package linkedlist;
 
-public class Main {
+public class ListClass {
     public static void main(String[] args) {
-        LL list=new LL();
+        LinkList list=new LinkList();
 
-        //insert at first
+
+        //insert first
         list.insertFirst(10);
         list.insertFirst(20);
         list.insertFirst(30);
         list.insertFirst(40);
         list.insertFirst(50);
 
+        //display(
+        list.display();
+
         //insert at last
-        list.insertLast(100);
+        list.insertLast(5);
+        System.out.println();
+        list.display();
 
         //insert at index
-        list.insert(28,1);
+        list.insert(1,55);
+        System.out.println();
         list.display();
 
         //delete first
-        System.out.println();
         list.deleteFirst();
+        System.out.println();
         list.display();
 
-        //delete Last
-        System.out.println();
+        //delete last
         list.deleteLast();
+        System.out.println();
         list.display();
 
         //delete by index
+        list.delete(2);
         System.out.println();
-        list.delete(2);
-        list.delete(2);
         list.display();
-
-        //Find node
-        System.out.println();
-        System.out.println(list.find(10));;
 
     }
 }
