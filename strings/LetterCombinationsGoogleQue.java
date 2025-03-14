@@ -15,7 +15,9 @@ public class LetterCombinationsGoogleQue {
 //        combPad("","29");
 
         //Print List
-        System.out.println("List : "+ combPadList("",str));
+//        System.out.println("List : "+ combPadList("",str));
+
+        combinationsFun("","23");
     }
 
     //for actual pad returning in list
@@ -40,19 +42,17 @@ public class LetterCombinationsGoogleQue {
     }
 
     //for actual pad
-    public static void combPad(String p,String up){
+    public static void combinationsFun(String p,String up){
         if(up.isEmpty()){
             System.out.println(p);
             return;
         }
-        String[] mapping = {
-                "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"
-        };
+        String[] mapping={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wzyz"};
+        String[] mappingList={"abc","def","ghi","jkl","mno","pqr","stu","vwx","yz"};
         int digit=Character.getNumericValue(up.charAt(0));
-        String letters=mapping[digit];
-
+        String letters=mappingList[digit];
         for(char ch:letters.toCharArray()){
-            combPad(p+ch,up.substring(1));
+            combinationsFun(p+ch,up.substring(1));
         }
     }
 

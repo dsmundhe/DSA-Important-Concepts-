@@ -9,8 +9,17 @@ public class SubsetOfString {
 //        subSetFun("",str);
 
         System.out.println(subSetFunList("",str));
+        subSetFun1("","123");
 
 
+    }
+    public static void subSetFun1(String p,String up){
+        if(up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+        subSetFun1(p+up.charAt(0),up.substring(1));
+        subSetFun1(p,up.substring(1));
     }
 
 

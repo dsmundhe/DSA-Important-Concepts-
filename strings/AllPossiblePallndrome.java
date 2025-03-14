@@ -7,6 +7,7 @@ public class AllPossiblePallndrome {
     public static void main(String[] args) {
         String str="nitin";
         System.out.println(palindromes(str));
+
     }
 
     public static ArrayList palindromes(String str){
@@ -21,6 +22,9 @@ public class AllPossiblePallndrome {
          }
          return list;
     }
+
+
+
     public static boolean isPalindrome(String str){
         int s=0;
         int e=str.length()-1;

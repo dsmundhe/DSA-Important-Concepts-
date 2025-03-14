@@ -7,14 +7,21 @@ public class DiceProblem {
     public static void main(String[] args) {
 //            dice("",9);
     //List
-        List<Integer>list=new ArrayList<>();
-        list.add(2);
-        list.add(3);
-        list.add(6);
-        list.add(7);
-        System.out.println("List : "+combDice("",7,list));
+//        List<Integer>list=new ArrayList<>();
+//        list.add(2);
+//        list.add(3);
+//        list.add(6);
+//        list.add(7);
+//        System.out.println("List : "+combDice("",7,list));
+
+        //dice problem
+        combFun("",5);
+
 
     }
+
+
+
 
 
     //through list
@@ -33,13 +40,13 @@ public class DiceProblem {
         return list;
     }
 
-    public static void dice(String p,int target){
+   public static void combFun(String p,int target){
         if(target==0){
             System.out.println(p);
             return;
         }
-        for (int i = 1;i<=target ; i++) {
-            dice(p+i,target-i);
-        }
-    }
+       for (int i = 1; i <=target && i<=6 ; i++) {
+           combFun(p+i,target-i);
+       }
+   }
 }
