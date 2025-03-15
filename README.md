@@ -25,6 +25,7 @@ DSA Practice/
 │-- oops/
 │-- Recursion/
 │-- strings/
+│-- Exception/
 │-- README.md
 
 ```
