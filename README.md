@@ -19,23 +19,23 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 📌 Click on a folder to explore its contents:
 
 - 📁 **[Arrays](arrays/)**
-- 📁 **[Basic Questions](Basic_Questions/)**
-- 📁 **[Bitwise Operations](Bitwise_Operations/)**
-- 📁 **[Collections](Collections/)**
+- 📁 **[Basic Questions](basic_questions)**
+- 📁 **[Bitwise Operations](bitwiseOpp)**
+- 📁 **[Collections](Collection)**
 - 📁 **[Dynamic Programming](Dynamic_Programming/)**
-- 📁 **[Enums](Enums/)**
-- 📁 **[Exception Handling](Exception_Handling/)**
-- 📁 **[Linked List](Linked_List/)**
-- 📁 **[Numbers](Numbers/)**
-- 📁 **[OOPs Concepts](OOPs_Concepts/)**
-   - 🔹 **[Abstraction](OOPs_Concepts/Abstraction/)**
-   - 🔹 **[Access Modifiers](OOPs_Concepts/Access_Modifiers/)**
+- 📁 **[Enums](Enums)**
+- 📁 **[Exception Handling](Exceptions)**
+- 📁 **[Linked List](linkedlist)**
+- 📁 **[Numbers](numbers)**
+- 📁 **[OOPs Concepts](oops)**
+   - 🔹 **[Abstraction](oops/abstraction)**
+   - 🔹 **[Access Modifiers](oops/access)**
    - 🔹 **[Encapsulation](OOPs_Concepts/Encapsulation/)**
-   - 🔹 **[Inheritance](OOPs_Concepts/Inheritance/)**
-   - 🔹 **[Polymorphism](OOPs_Concepts/Polymorphism/)**
-   - 🔹 **[Static Keyword](OOPs_Concepts/Static_Key/)**
-- 📁 **[Recursion](Recursion/)**
-- 📁 **[Strings](Strings/)**
+   - 🔹 **[Inheritance](oops/inheritance)**
+   - 🔹 **[Polymorphism](oops/polymorphism)**
+   - 🔹 **[Static Keyword](oops)**
+- 📁 **[Recursion](Recursion)**
+- 📁 **[Strings](strings)**
 - 📄 **[README.md](README.md)**
 
 ---
