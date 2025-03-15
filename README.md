@@ -15,24 +15,28 @@ This repository contains important **Data Structures and Algorithms (DSA)** impl
 
 ## 📂 Folder Structure
 ```
-DSA Practice/
-│-- arrays/
-│-- basic_questions/
-│-- bitwiseOpp/
-│-- DP_questions/
-│-- linkedlist/
-│-- numbers/
-│-- oops/
-       |--abstraction
-       |--access
-       |--encapsulation
-       |--inheritance
-       |--polymorphism
-       |--static-key
-│-- Recursion/
-│-- strings/
-│-- Exception/
-│-- README.md
+
+📂 [DSA_Practice](./)
+├── 📁 [Arrays](./Arrays/)
+├── 📁 [Basic_Questions](./Basic_Questions/)
+├── 📁 [Bitwise_Operations](./Bitwise_Operations/)
+├── 📁 [Collections](./Collections/)
+├── 📁 [Dynamic_Programming](./Dynamic_Programming/)
+├── 📁 [Enums](./Enums/)
+├── 📁 [Exception_Handling](./Exception_Handling/)
+├── 📁 [Linked_List](./Linked_List/)
+├── 📁 [Numbers](./Numbers/)
+├── 📁 [OOPs_Concepts](./OOPs_Concepts/)
+│   ├── 🔹 [Abstraction](./OOPs_Concepts/Abstraction/)
+│   ├── 🔹 [Access_Modifiers](./OOPs_Concepts/Access_Modifiers/)
+│   ├── 🔹 [Encapsulation](./OOPs_Concepts/Encapsulation/)
+│   ├── 🔹 [Inheritance](./OOPs_Concepts/Inheritance/)
+│   ├── 🔹 [Polymorphism](./OOPs_Concepts/Polymorphism/)
+│   ├── 🔹 [Static_Keyword](./OOPs_Concepts/Static_Keyword/)
+├── 📁 [Recursion](./Recursion/)
+├── 📁 [Strings](./Strings/)
+└── 📄 [README.md](./README.md)
+
 
 ```
 

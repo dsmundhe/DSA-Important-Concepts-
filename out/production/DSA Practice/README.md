@@ -23,8 +23,15 @@ DSA Practice/
 │-- linkedlist/
 │-- numbers/
 │-- oops/
+       |--abstraction
+       |--access
+       |--encapsulation
+       |--inheritance
+       |--polymorphism
+       |--static-key
 │-- Recursion/
 │-- strings/
+│-- Exception/
 │-- README.md
 
 ```
