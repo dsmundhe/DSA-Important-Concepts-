@@ -18,7 +18,7 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 ### 📂 DSA Practice
 📌 Click on a folder to explore its contents:
 
-- 📁 **[Arrays](Arrays/)**
+- 📁 **[Arrays](arrays/)**
 - 📁 **[Basic Questions](Basic_Questions/)**
 - 📁 **[Bitwise Operations](Bitwise_Operations/)**
 - 📁 **[Collections](Collections/)**
