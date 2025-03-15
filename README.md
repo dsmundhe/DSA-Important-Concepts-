@@ -33,7 +33,7 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
    - 🔹 **[Encapsulation](OOPs_Concepts/Encapsulation/)**
    - 🔹 **[Inheritance](OOPs_Concepts/Inheritance/)**
    - 🔹 **[Polymorphism](OOPs_Concepts/Polymorphism/)**
-   - 🔹 **[Static Keyword](OOPs_Concepts/Static_Keyword/)**
+   - 🔹 **[Static Keyword](OOPs_Concepts/Static_Key/)**
 - 📁 **[Recursion](Recursion/)**
 - 📁 **[Strings](Strings/)**
 - 📄 **[README.md](README.md)**
