@@ -17,7 +17,7 @@ public class MazeProblem {
     //count paths
     public static int count(int row,int col){
 
-        //after every row or col becomes one that mean pointer at last line that's we used OR operator
+        //After every row or col becomes one that mean pointer at last line that's we used OR operator
         if(row==1 || col==1){
             return 1;
         }
