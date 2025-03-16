@@ -26,6 +26,9 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 - 📁 **[Enums](Enums)**
 - 📁 **[Exception Handling](Exceptions)**
 - 📁 **[Linked List](linkedlist)**
+-   - 🔹 **[Singly-LinkedList](linkedlist/Singly_LinkedList)**
+-   - 🔹 **[Doubly-LinkedList](linkedlist/Doubly_LinkedList)**
+-   - 🔹 **[Circular-LinkedList](linkedlist/Circular_LinkedList)**
 - 📁 **[Numbers](numbers)**
 - 📁 **[OOPs Concepts](oops)**
    - 🔹 **[Abstraction](oops/abstraction)**

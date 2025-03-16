@@ -1,6 +1,8 @@
 package basic_questions;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class AllPossiblePaths {
@@ -9,9 +11,13 @@ public class AllPossiblePaths {
                 {0, 2, 3},
                 {1, 3, 2},
                 {1, 1, 0}};
-        pathsFun(grid,0,0,0);
+
+//        pathsFun(grid,0,0,0);
+
         System.out.println("List : "+pathsFunList(grid,0,0,0));
+
         List<Integer> ls=pathsFunList(grid,0,0,0);
+
         ArrayList<Integer> newList=new ArrayList<>();
         int count=0;
         int sum=0;
