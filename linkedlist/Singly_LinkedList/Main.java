@@ -1,42 +1,40 @@
-package linkedlist;
+package linkedlist.Singly_LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        LL list=new LL();
+        SLL list=new SLL();
 
-        //insert at first
+        //insert at first intdex
         list.insertFirst(10);
         list.insertFirst(20);
         list.insertFirst(30);
         list.insertFirst(40);
-        list.insertFirst(50);
 
-        //insert at last
-        list.insertLast(100);
-
-        //insert at index
-        list.insert(28,1);
+        //display list
         list.display();
 
-        //delete first
-        System.out.println();
+        //insert at last index
+        list.insertLast(100);
+        list.display();
+
+
+        //insert at index
+        list.insert(1,50);
+        list.display();
+
+        // delete first
         list.deleteFirst();
         list.display();
 
-        //delete Last
-        System.out.println();
         list.deleteLast();
         list.display();
 
         //delete by index
-        System.out.println();
-        list.delete(2);
         list.delete(2);
         list.display();
 
-        //Find node
-        System.out.println();
-        System.out.println(list.find(10));;
+        //find node
+        System.out.println("Node Val : "+list.findNode(30));
 
     }
 }
