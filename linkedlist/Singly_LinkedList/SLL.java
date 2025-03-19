@@ -63,6 +63,20 @@ public class SLL {
         size++;
     }
 
+    //insert using recursion
+    public void insertRec(int val,int index){
+        head=insertRec(val,index,head);
+    }
+    private Node insertRec(int val,int index,Node node){
+        if(index==0){
+            Node temp=new Node(val,node);
+            size++;
+            return temp;
+        }
+        node.next=insertRec(val,index-1,node.next);
+        return node;
+    }
+
     //delete first
     public void deleteFirst(){
         head=head.next;
@@ -128,6 +142,53 @@ public class SLL {
         }
         return node;
     }
+
+
+
+    //Questions
+
+    //remove duplicates
+
+    //Q-1  remove duplicates
+    public void duplicates(){
+        Node temp=head;
+
+        while (temp.next !=null){
+            if(temp.next != null && temp.value ==temp.next.value){
+                temp.next=temp.next.next;
+            }else{
+                temp=temp.next;
+            }
+        }
+    }
+
+
+    //Q-2 Merge Two sorted Lists
+    public static void mergeLists(SLL list1,SLL list2){
+        Node head1=list1.head;
+        Node head2=list2.head;
+        SLL list=new SLL();
+         while (head1 !=null && head2 !=null){
+             if(head1.value < head2.value){
+                 list.insertLast(head1.value);
+                 head1=head1.next;
+             }else {
+                 list.insertLast(head2.value);
+                 head2=head2.next;
+             }
+         }
+         while (head1 != null){
+             list.insertLast(head1.value);
+             head1=head1.next;
+         }
+         while (head2 != null){
+             list.insertLast(head2.value);
+             head2=head2.next;
+         }
+         list.display();
+    }
+
+
 
     private class Node{
         private int value;

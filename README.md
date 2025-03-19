@@ -29,6 +29,7 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 -   - 🔹 **[Singly-LinkedList](linkedlist/Singly_LinkedList)**
 -   - 🔹 **[Doubly-LinkedList](linkedlist/Doubly_LinkedList)**
 -   - 🔹 **[Circular-LinkedList](linkedlist/Circular_LinkedList)**
+-   - 🔹 **[Questions](linkedlist/Questions)**
 - 📁 **[Numbers](numbers)**
 - 📁 **[OOPs Concepts](oops)**
    - 🔹 **[Abstraction](oops/abstraction)**

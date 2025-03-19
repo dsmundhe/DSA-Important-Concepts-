@@ -36,5 +36,10 @@ public class Main {
         //find node
         System.out.println("Node Val : "+list.findNode(30));
 
+
+
+        list.insertRec(55,1);
+        list.display();
+
     }
 }
