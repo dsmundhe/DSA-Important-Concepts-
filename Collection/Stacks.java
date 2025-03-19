@@ -34,5 +34,21 @@ public class Stacks {
 
 //      isEmpty
         System.out.println("Is stack Empty : "+stack.isEmpty());
+
+        //reverse string using num
+        String str="Hello";
+        Stack<Character> stackChars=new Stack<>();
+        for(char ch:str.toCharArray()){
+             stackChars.push(ch);
+        }
+
+       StringBuilder reversed =new StringBuilder();
+       while (!stackChars.isEmpty()){
+             reversed.append(stackChars.pop());
+        }
+
+        System.out.println("Original String : "+str);
+        System.out.println("Reversed String : "+reversed);
+
     }
 }
