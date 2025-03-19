@@ -3,6 +3,16 @@ package Collection;
 import java.util.HashMap;
 public class HashMaps {
     public static void main(String[] args) {
+
+//        put -> map.put(key , value);
+//        get -> map.get(key);
+//        remove -> map.remove(key);
+//        size -> map.size();
+//        containsKey -> map.containsKey(key);
+//        containsValue -> map.containsValue(value);
+//        keySet -> map.keySet();
+//        values -> map.values();
+
         HashMap<String,Integer>studentData=new HashMap<>();
         studentData.put("Dipak",99);
         studentData.put("Nitin",99);
@@ -38,6 +48,11 @@ public class HashMaps {
         System.out.println("Values : " +studentData.values());
         System.out.println("Key Set : "+studentData.keySet());
         System.out.println("Entry Set : "+studentData.entrySet());
+
+        System.out.println("Get value : "+studentData.get("Dipak"));
+
+
+
     }
     public static String  getNameByValue(HashMap<String,Integer> map,int value){
         for (String key :map.keySet()){
