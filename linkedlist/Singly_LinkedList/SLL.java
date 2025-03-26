@@ -164,7 +164,7 @@ public class SLL {
 
 
     //Q-2 Merge Two sorted Lists
-    public static void mergeLists(SLL list1,SLL list2){
+    public static SLL mergeLists(SLL list1,SLL list2){
         Node head1=list1.head;
         Node head2=list2.head;
         SLL list=new SLL();
@@ -185,9 +185,20 @@ public class SLL {
              list.insertLast(head2.value);
              head2=head2.next;
          }
-         list.display();
+        return list;
     }
 
+
+    //find middle of linkedList
+    public static int findMid(SLL list){
+        Node slow=list.head;
+        Node fast=list.head;
+        while (fast !=null && fast.next !=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        return slow.value;
+    }
 
 
     private class Node{

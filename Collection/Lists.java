@@ -1,9 +1,6 @@
 package Collection;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 public class Lists {
     public static void main(String[] args) {
@@ -44,5 +41,7 @@ public class Lists {
         int[] unique= Arrays.stream(arr).distinct().toArray();
         System.out.println("Before : "+Arrays.toString(arr));
         System.out.println("After : "+Arrays.toString(unique));
+
+        LinkedList<Integer> ls=new LinkedList<>();
     }
 }

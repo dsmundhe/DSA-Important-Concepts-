@@ -45,13 +45,18 @@ public class Main {
         list2.insertLast(20);
         list2.insertLast(30);
         list2.insertLast(40);
+        list2.insertLast(40);
+        list2.insertLast(40);
+        list2.insertLast(40);
 
         //Display lists
         list1.display();
         list2.display();
 
         //Merge lists
-        SLL.mergeLists(list1,list2);
+      SLL mergeList=  SLL.mergeLists(list1,list2);
+      mergeList.display();
+        System.out.println(SLL.findMid(mergeList));
 
 
     }
