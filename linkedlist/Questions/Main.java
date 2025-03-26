@@ -58,6 +58,11 @@ public class Main {
       mergeList.display();
         System.out.println(SLL.findMid(mergeList));
 
+        System.out.println("Reverse of linkedList");
+        list1.display();
+        list1.reverseList();
+        list1.display();
+
 
     }
 }

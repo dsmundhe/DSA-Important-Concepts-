@@ -163,6 +163,7 @@ public class SLL {
     }
 
 
+
     //Q-2 Merge Two sorted Lists
     public static SLL mergeLists(SLL list1,SLL list2){
         Node head1=list1.head;
@@ -200,6 +201,21 @@ public class SLL {
         return slow.value;
     }
 
+    //reverse of Linked List
+    public void reverseList(){
+        Node current=head;
+        Node prev=null;
+        while (current !=null){
+            Node nextNode=current.next;
+            current.next=prev;
+            prev=current;
+            current=nextNode;
+        }
+        if(head != null){
+            tail=head;
+        }
+        head=prev;
+    }
 
     private class Node{
         private int value;
