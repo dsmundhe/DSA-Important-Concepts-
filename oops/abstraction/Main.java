@@ -22,4 +22,8 @@ public class Main {
         //it's not possible
         //we can not instantiated abstract class
     }
+
+    public static boolean max(int mainCount, int count) {
+        return false;
+    }
 }
