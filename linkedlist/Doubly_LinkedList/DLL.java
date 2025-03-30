@@ -11,7 +11,6 @@ public class DLL {
         node.prev=null;
         if(head==null){
             head=node;
-            node.prev=null;
         }
         head.prev=node;
         head=node;
