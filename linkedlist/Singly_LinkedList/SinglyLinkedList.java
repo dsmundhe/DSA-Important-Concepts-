@@ -118,6 +118,36 @@ public class SinglyLinkedList {
         size--;
     }
 
+    //reverse linked list
+ public void reverseList(){
+        Node current=head;
+        Node preve=null;
+        while (current!=null){
+            Node next=current.next;
+            current.next=preve;
+            preve=current;
+            current=next;
+        }
+        head=preve;
+ }
+
+ //find mid
+    //using two pointers ( slow and fast ) pointer
+
+ public void midNode(){
+      if(head ==null){
+          System.out.println("null");
+          return;
+      }
+      Node slow=head;
+      Node fast=head;
+      while (fast !=null && fast.next !=null){
+          slow=slow.next;
+          fast=fast.next.next;
+      }
+     System.out.println("Mid value : "+slow.val);
+ }
+
     //display list
     public void display(){
         Node temp=head;

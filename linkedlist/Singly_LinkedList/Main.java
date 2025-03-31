@@ -75,16 +75,27 @@ public class Main {
         sList.display();
 
         //delete last
-        sList.display();
-        sList.deleteLast();
-        sList.deleteLast();
-        sList.deleteLast();
-        sList.display();
+//        sList.display();
+//        sList.deleteLast();
+//        sList.deleteLast();
+//        sList.deleteLast();
+//        sList.display();
 
         //delete by index
         sList.delete(2);
         sList.delete(2);
         sList.display();
+
+        //reverse list
+//        sList.display();
+//        sList.reverseList();
+
+        //insertNode
+        sList.insertLast(25);
+        sList.insertLast(65);
+        sList.insertLast(10);
+        sList.display();
+        sList.midNode();
 
     }
 }

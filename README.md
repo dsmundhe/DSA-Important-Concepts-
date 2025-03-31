@@ -40,6 +40,7 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
    - 🔹 **[Static Keyword](oops)**
 - 📁 **[Recursion](Recursion)**
 - 📁 **[Strings](strings)**
+- 📁 **[Stack](Stack)**
 - 📄 **[README.md](README.md)**
 
 ---
