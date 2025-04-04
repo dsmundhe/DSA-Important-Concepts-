@@ -43,5 +43,28 @@ public class Lists {
         System.out.println("After : "+Arrays.toString(unique));
 
         LinkedList<Integer> ls=new LinkedList<>();
+
+        ArrayList<Integer> binList=new ArrayList<>();
+        binList.add(1);
+        binList.add(0);
+        binList.add(1);
+        int num=0;
+        for(int i=0;i<binList.size();i++){
+            num += (Math.pow(2,i) * binList.get(i));
+        }
+        System.out.println("Total num : "+num);
+
+
+        ArrayList<Integer> sticks=new ArrayList<>();
+        sticks.add(0,10);
+        sticks.add(1,15);
+        sticks.add(2,22);
+
+        System.out.println(sticks);
+        sticks.remove(1);
+        sticks.add(1,11);
+        System.out.println(sticks);
+
+
     }
 }
