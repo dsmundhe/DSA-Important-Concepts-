@@ -4,8 +4,9 @@ import java.util.Stack;
 
 public class ValidParantheses {
     public static void main(String[] args) {
-        String str="{([])}";
-        System.out.println(isValid(str));
+        String str="(((()())(((()(())))((()))(()(())))()(((())))())(()))((()(()))(()))(()(()(())))()"; //true
+        String str1="(((()())(((()(())))((()))(()(())))()(((())))())(()))((()(()))(()))(()(()(())))())("; //false
+        System.out.println(isValid(str1));
     }
 
     public static boolean isValid(String str){
