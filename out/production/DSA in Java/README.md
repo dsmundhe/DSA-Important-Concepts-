@@ -19,6 +19,7 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 📌 Click on a folder to explore its contents:
 
 - 📁 **[Arrays](arrays/)**
+    - 🔹 **[TwoD Array](arrays/two_d)**
 - 📁 **[Basic Questions](basic_questions)**
 - 📁 **[Bitwise Operations](bitwiseOpp)**
 - 📁 **[Collections](Collection)**
@@ -41,6 +42,7 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 - 📁 **[Recursion](Recursion)**
 - 📁 **[Strings](strings)**
 - 📁 **[Stack](Stack)**
+- 📁 **[Games](Games)**
 - 📄 **[README.md](README.md)**
 
 ---
