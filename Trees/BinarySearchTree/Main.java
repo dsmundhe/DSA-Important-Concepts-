@@ -18,5 +18,8 @@ public class Main {
         bsTree.populate(nums);
         bsTree.display();
         System.out.println(bsTree.balanced());
+
+
+
     }
 }

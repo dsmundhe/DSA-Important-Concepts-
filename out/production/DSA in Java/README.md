@@ -26,11 +26,6 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
 - 📁 **[Dynamic Programming](Dynamic_Programming/)**
 - 📁 **[Enums](Enums)**
 - 📁 **[Exception Handling](Exceptions)**
-- 📁 **[Linked List](linkedlist)**
--   - 🔹 **[Singly-LinkedList](linkedlist/Singly_LinkedList)**
--   - 🔹 **[Doubly-LinkedList](linkedlist/Doubly_LinkedList)**
--   - 🔹 **[Circular-LinkedList](linkedlist/Circular_LinkedList)**
--   - 🔹 **[Questions](linkedlist/Questions)**
 - 📁 **[Numbers](numbers)**
 - 📁 **[OOPs Concepts](oops)**
    - 🔹 **[Abstraction](oops/abstraction)**
@@ -39,9 +34,17 @@ This repository contains essential **Data Structures and Algorithms (DSA)** impl
    - 🔹 **[Inheritance](oops/inheritance)**
    - 🔹 **[Polymorphism](oops/polymorphism)**
    - 🔹 **[Static Keyword](oops)**
+- 📁 **[Linked List](linkedlist)**
+-   - 🔹 **[Singly-LinkedList](linkedlist/Singly_LinkedList)**
+-   - 🔹 **[Doubly-LinkedList](linkedlist/Doubly_LinkedList)**
+-   - 🔹 **[Circular-LinkedList](linkedlist/Circular_LinkedList)**
+-   - 🔹 **[Questions](linkedlist/Questions)**
 - 📁 **[Recursion](Recursion)**
 - 📁 **[Strings](strings)**
 - 📁 **[Stack](Stack)**
+- 📁 **[Trees](Trees)**
+-    - 🔹 **[Binary Tree](Trees/BinaryTree)**
+-    - 🔹 **[Binary Search Tree](Trees/BinarySearchTree)**
 - 📁 **[Games](Games)**
 - 📄 **[README.md](README.md)**
 

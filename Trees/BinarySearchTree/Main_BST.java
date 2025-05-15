@@ -22,5 +22,12 @@ public class Main_BST {
         int val=10;
         System.out.println("IS " + val +" Present : "+ bst.findVal(val));
 
+
+        //insert sorted arr
+        int[] sortedArr={1,2,3,4,5,6,7,8,9};
+        BinarySearchTreeFull bst2=new BinarySearchTreeFull();
+        bst2.insertSortedArr(sortedArr);
+        bst2.display();
+
     }
 }

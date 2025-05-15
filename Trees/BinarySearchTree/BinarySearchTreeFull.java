@@ -51,6 +51,20 @@ public class BinarySearchTreeFull {
     }
 
 
+    //insert sorted Array
+    public void insertSortedArr(int[] arr){
+        insertSortedArr(arr,0,arr.length);
+    }
+    private void insertSortedArr(int[] arr,int start,int end){
+        if(start>=end){
+            return;
+        }
+        int mid=start + (end-start)/2;
+        insert(arr[mid]);
+        insertSortedArr(arr,start,mid);
+        insertSortedArr(arr,mid+1,arr.length);
+    }
+
     //traversal of Binary Search Tree
 
     //preorder traversal

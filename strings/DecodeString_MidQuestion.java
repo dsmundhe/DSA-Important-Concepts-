@@ -6,6 +6,7 @@ public class DecodeString_MidQuestion {
         String str="3[a]2[bc]";
         System.out.println(decodeString(str));
         System.out.println(decodeStringOrg(str));
+
     }
 
     public static String decodeString(String s) {
@@ -31,6 +32,9 @@ public class DecodeString_MidQuestion {
     }
 
 
+
+
+
     //Right code for Decode String
 
     public static String decodeStringOrg(String s) {
@@ -41,7 +45,7 @@ public class DecodeString_MidQuestion {
 
         for (char ch : s.toCharArray()) {
             if (Character.isDigit(ch)) {
-                k = k * 10 + (ch - '0'); // Support multiple digit numbers
+                k = k * 10 +(ch-'0'); // Support multiple digit numbers
             } else if (ch == '[') {
                 countStack.push(k);
                 strStack.push(currStr);
@@ -50,7 +54,7 @@ public class DecodeString_MidQuestion {
             } else if (ch == ']') {
                 StringBuilder temp = new StringBuilder(strStack.pop());
                 int count = countStack.pop();
-                for (int i = 0; i < count; i++) {
+                for(int i = 0; i < count; i++) {
                     temp.append(currStr);
                 }
                 currStr = temp.toString();
